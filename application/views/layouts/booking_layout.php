@@ -26,6 +26,9 @@
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/themes/' . vars('theme') . '.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/general.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/layouts/booking_layout.css') ?>">
+    <script src="<?= asset_url('assets/ext/fontawesome/js/fontawesome.min.js') ?>"></script>
+    <script src="<?= asset_url('assets/ext/fontawesome/js/solid.min.js') ?>"></script>
+    <script src="https://kit.fontawesome.com/d9ded4256c.js" crossorigin="anonymous"></script>
 
     <?php component('company_color_style', ['company_color' => vars('company_color')]); ?>
 

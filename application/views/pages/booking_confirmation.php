@@ -37,10 +37,33 @@
                 <td>salon@glamimperio.cl</td>
                 </tr>
             </tbody>
+            <table class="styled-table-2">
+            <thead>
+                <tr>
+                    <th class="th1">Datos Abono Para Transferencia </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>RUT Empresa: 77.875.803-2 </td>
+                </tr>
+                <tr>
+                <td>Banco:Banco Santander</td>
+                </tr>
+                <tr>
+                <td>Tipo de cuenta: Cuenta Corriente</td>
+                </tr>
+                <tr>
+                <td>Número Cuenta: 93376927</td>
+                </tr>
+                <tr>
+                <td>Correo: salon@glamimperio.cl </td>
+                </tr>
+            </tbody>
 
         </table>
                 <h3 class="h3-comprobante">Enviar comprobante a el
-                    <a href="https://api.whatsapp.com/send/?phone=56947814410&text=Hola+�%2C%0AQuiero+comunicarme+con+ustedes+�&type=phone_number&app_absent=0">+569 4781 4410</a></td>
+                    <a class="a-color" href="https://api.whatsapp.com/send/?phone=56947814410&text=Hola+�%2C%0AQuiero+comunicarme+con+ustedes+�&type=phone_number&app_absent=0">+569 4781 4410</a></td>
                 </h3>
                             
                 <!-- <p>
@@ -53,13 +76,13 @@
                     </strong>
                 </p> -->
 
-                <a href="<?= site_url() ?>" class="btn btn-success btn-large">
+                <a href="<?= site_url() ?>" class="btn btn-success-2 btn-large">
                     <i class="fas fa-calendar-alt"></i>
                     Volver Agendar
                     <!-- <?= lang('go_to_booking_page') ?> -->
                 </a>
 
-                <a href="<?= $add_to_google_url ?>" id="add-to-google-calendar" class="btn btn-primary" target="_blank">
+                <a href="<?= $add_to_google_url ?>" id="add-to-google-calendar" class="btn btn-primary-2" target="_blank">
                     <i class="fas fa-plus"></i>
                     <?= lang('add_to_google_calendar') ?>
                 </a>

@@ -1964,3 +1964,265 @@ ERROR - 2024-07-15 21:21:46 --> #0 C:\xampp\htdocs\easyappointments\application\
 #3 C:\xampp\htdocs\easyappointments\index.php(331): require_once('C:\\xampp\\htdocs...')
 #4 {main}
 ERROR - 2024-07-15 21:21:47 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:43:38 --> Notifications - Could not email confirmation details of appointment (7) : Email was not sent: No ha sido posible enviar el correo usando PHP mail(). Tu servidor podría no estar configurado para enviar emails con este método.<br /><pre>Date: Mon, 15 Jul 2024 22:43:36 +0200
+From: &quot;glam&quot; &lt;jaxtreem@gmail.com&gt;
+Return-Path: &lt;jaxtreem@gmail.com&gt;
+Reply-To: &lt;jaxtreem@gmail.com&gt;
+User-Agent: Easy!Appointments
+X-Sender: jaxtreem@gmail.com
+X-Mailer: Easy!Appointments
+X-Priority: 3 (Normal)
+Message-ID: &lt;669589f8360e2@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary=&quot;B_ATC_669589f8360f1&quot;
+=?UTF-8?Q?Su=20cita=20ha=20sido=20agendada=20exitosamente?=
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ATC_669589f8360f1
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_669589f8360ef&quot;
+
+--B_ALT_669589f8360ef
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+glam
+
+
+
+
+ Su cita ha sido agendada exitosamente
+
+
+ Gracias por utilizar nuestro servicio para agendar su cita. Debajo
+encontrará los detalles de su cita. Haga clic en la cita para realizar
+cambios.
+
+
+ Detalles de la cita
+
+
+
+
+ Servicio
+
+ barberia
+
+
+
+ Proveedor
+
+ Jane Doe
+
+
+
+ Inicio
+
+ 16/07/2024 8:00 am
+
+
+
+ Final
+
+ 16/07/2024 8:30 am
+
+
+
+
+ Zona horaria
+
+ Santiago (-4:00)
+
+
+
+
+ Estado
+
+ Booked
+
+
+
+
+ Descripción
+
+
+
+
+
+
+
+
+ Detalles del cliente
+
+
+
+
+ Nombre
+
+ Javier
+
+
+
+ Dirección de E-mail
+
+ sdas@gmail.com
+
+
+
+ Número de teléfono
+
+ 213123
+
+
+
+ Domicilio
+
+
+
+
+
+
+ Enlace a la cita
+
+
+ http://localhost/easyappointments/index.php/booking/reschedule/b1a9WoCAePjI
+
+
+
+ Powered by
+
+ Easy!Appointments
+
+ |
+
+ glam
+
+
+--B_ALT_669589f8360ef
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A&lt;html lang=3D&quot;en&quot;&gt;=0A&lt;head&gt;=0A    &lt;title&gt;=0A        Detalles de la cita =
+| Easy!Appointments=0A    &lt;/title&gt;=0A&lt;/head&gt;=0A&lt;body style=3D&quot;font: 13px ar=
+ial, helvetica, tahoma;&quot;&gt;=0A=0A&lt;div class=3D&quot;email-container&quot; style=3D&quot;widt=
+h: 650px; border: 1px solid #eee; margin: 30px auto;&quot;&gt;=0A    &lt;div id=3D&quot;hea=
+der&quot; style=3D&quot;background-color: #429a82; height: 45px; padding: 10px 15px;&quot;=
+&gt;=0A        &lt;strong id=3D&quot;logo&quot; style=3D&quot;color: white; font-size: 20px; mar=
+gin-top: 10px; display: inline-block&quot;&gt;=0A            glam        &lt;/strong&gt;=
+=0A    &lt;/div&gt;=0A=0A    &lt;div id=3D&quot;content&quot; style=3D&quot;padding: 10px 15px; min=
+-height: 400px;&quot;&gt;=0A        &lt;h2&gt;=0A            Su cita ha sido agendada exi=
+tosamente        &lt;/h2&gt;=0A=0A        &lt;p&gt;=0A            Gracias por utilizar =
+nuestro servicio para agendar su cita.  Debajo encontrar=C3=A1 los detalles=
+ de su cita. Haga clic en la cita para realizar cambios.        &lt;/p&gt;=0A=0A =
+       &lt;h2&gt;=0A            Detalles de la cita        &lt;/h2&gt;=0A=0A        &lt;ta=
+ble id=3D&quot;appointment-details&quot;&gt;=0A            &lt;tr&gt;=0A                &lt;td cl=
+ass=3D&quot;label&quot; style=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                =
+    Servicio                &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3=
+px;&quot;&gt;=0A                    barberia                &lt;/td&gt;=0A            &lt;/t=
+r&gt;=0A            &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; style=3D&quot;paddin=
+g: 3px;font-weight: bold;&quot;&gt;=0A                    Proveedor                =
+&lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A                    =
+Jane Doe                &lt;/td&gt;=0A            &lt;/tr&gt;=0A            &lt;tr&gt;=0A    =
+            &lt;td class=3D&quot;label&quot; style=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=
+=0A                    Inicio                &lt;/td&gt;=0A                &lt;td st=
+yle=3D&quot;padding: 3px;&quot;&gt;=0A                    16/07/2024 8:00 am            =
+    &lt;/td&gt;=0A            &lt;/tr&gt;=0A            &lt;tr&gt;=0A                &lt;td clas=
+s=3D&quot;label&quot; style=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                  =
+  Final                &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=
+=0A                    16/07/2024 8:30 am=0A                &lt;/td&gt;=0A       =
+     &lt;/tr&gt;=0A            &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; style=
+=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                    Zona horaria   =
+             &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A       =
+             Santiago (-4:00)                &lt;/td&gt;=0A            &lt;/tr&gt;=0A=
+=0A                        &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; style=
+=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                    Estado         =
+       &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A             =
+       Booked                &lt;/td&gt;=0A            &lt;/tr&gt;=0A                  =
+      =0A            &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; style=3D&quot;pa=
+dding: 3px;font-weight: bold;&quot;&gt;=0A                    Descripci=C3=B3n     =
+           &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A         =
+                           &lt;/td&gt;=0A            &lt;/tr&gt;=0A=0A            =0A  =
+                  &lt;/table&gt;=0A=0A        &lt;h2&gt;=0A            Detalles del cli=
+ente        &lt;/h2&gt;=0A=0A        &lt;table id=3D&quot;customer-details&quot;&gt;=0A          =
+  &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; style=3D&quot;padding: 3px;font-wei=
+ght: bold;&quot;&gt;=0A                    Nombre                &lt;/td&gt;=0A          =
+      &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A                    Javier            =
+     &lt;/td&gt;=0A            &lt;/tr&gt;=0A            &lt;tr&gt;=0A                &lt;td cla=
+ss=3D&quot;label&quot; style=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                 =
+   Direcci=C3=B3n de E-mail                &lt;/td&gt;=0A                &lt;td styl=
+e=3D&quot;padding: 3px;&quot;&gt;=0A                    sdas@gmail.com                &lt;/=
+td&gt;=0A            &lt;/tr&gt;=0A            &lt;tr&gt;=0A                &lt;td class=3D&quot;l=
+abel&quot; style=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                    N=
+=C3=BAmero de tel=C3=A9fono                &lt;/td&gt;=0A                &lt;td styl=
+e=3D&quot;padding: 3px;&quot;&gt;=0A                    213123                &lt;/td&gt;=0A  =
+          &lt;/tr&gt;=0A            &lt;tr&gt;=0A                &lt;td class=3D&quot;label&quot; st=
+yle=3D&quot;padding: 3px;font-weight: bold;&quot;&gt;=0A                    Domicilio   =
+             &lt;/td&gt;=0A                &lt;td style=3D&quot;padding: 3px;&quot;&gt;=0A       =
+                             &lt;/td&gt;=0A            &lt;/tr&gt;=0A        &lt;/table&gt;=
+=0A=0A        &lt;h2&gt;=0A            Enlace a la cita        &lt;/h2&gt;=0A=0A       =
+ &lt;a href=3D&quot;http://localhost/easyappointments/index.php/booking/reschedule/=
+b1a9WoCAePjI&quot; style=3D&quot;width: 600px;&quot;&gt;=0A            http://localhost/easya=
+ppointments/index.php/booking/reschedule/b1a9WoCAePjI        &lt;/a&gt;=0A    &lt;/d=
+iv&gt;=0A=0A    &lt;div id=3D&quot;footer&quot; style=3D&quot;padding: 10px; text-align: center;=
+ margin-top: 10px;=0A                border-top: 1px solid #EEE; background=
+: #FAFAFA;&quot;&gt;=0A        Powered by=0A        &lt;a href=3D&quot;https://easyappointm=
+ents.org&quot; style=3D&quot;text-decoration: none;&quot;&gt;=0A            Easy!Appointments=
+=0A        &lt;/a&gt;=0A        |=0A        &lt;a href=3D&quot;jaxtreem.com&quot; style=3D&quot;tex=
+t-decoration: none;&quot;&gt;=0A            glam        &lt;/a&gt;=0A    &lt;/div&gt;=0A&lt;/div&gt;=
+=0A=0A&lt;/body&gt;=0A&lt;/html&gt;
+
+--B_ALT_669589f8360ef--
+
+
+
+--B_ATC_669589f8360f1
+Content-Type: text/vcalendar; name=&quot;invitation.ics&quot;
+Content-Disposition: attachment;
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0Vhc3lBcHBvaW50bWVudHMv
+L09wZW4gU291cmNlIFdlYiBTY2hlZHVsZXIvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhP
+RDpQVUJMSVNIDQpCRUdJTjpWVElNRVpPTkUNClRaSUQ6RXVyb3BlL0Jlcmxpbg0KQkVHSU46U1RB
+TkRBUkQNCkRUU1RBUlQ6MjAyNDEwMjdUMDEwMDAwDQpUWk9GRlNFVFRPOiswMTAwDQpUWk9GRlNF
+VEZST006KzAyMDANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9MTE7QllEQVk9MVNVDQpFTkQ6
+U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjQwMzMxVDAxMDAwMA0KVFpPRkZT
+RVRUTzorMDIwMA0KVFpPRkZTRVRGUk9NOiswMTAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRI
+PTM7QllEQVk9MlNVDQpFTkQ6REFZTElHSFQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZFVkVOVA0K
+VUlEOmVhLThmMTRlNDVmY2VlYTE2N2E1YTM2ZGVkZDRiZWEyNTQzDQpEVFNUQVJUOjIwMjQwNzE2
+VDE0MDAwMA0KRFRFTkQ6MjAyNDA3MTZUMTQzMDAwDQpTVEFUVVM6Q09ORklSTUVEDQpTVU1NQVJZ
+OmJhcmJlcmlhDQpERVNDUklQVElPTjpcblByb3ZlZWRvclxuXG5Ob21icmU6IEphbmUgRG9lXG5E
+aXJlY2Npw7NuIGRlIEUtbWFpbDogamFuDQogZUBleGFtcGxlLm9yZ1xuTsO6bWVybyBkZSB0ZWzD
+qWZvbm86ICsxICgwMDApIDAwMC0wMDAwXG5Eb21pY2lsaW86IFxuQw0KIGl1ZGFkOiBcbkPDs2Rp
+Z28gcG9zdGFsOiBcblxuQ2xpZW50ZVxuXG5Ob21icmU6IEphdmllciBcbkRpcmVjY2nDs24gZGUN
+CiAgRS1tYWlsOiBzZGFzQGdtYWlsLmNvbVxuTsO6bWVybyBkZSB0ZWzDqWZvbm86IDIxMzEyM1xu
+RG9taWNpbGlvOiBcbkNpDQogdWRhZDogXG5Dw7NkaWdvIHBvc3RhbDogXG5cbk5vdGFzXG5cbg0K
+RFRTVEFNUDoyMDI0MDcxNVQyMDQzMzZaDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xF
+PVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047DQogUlNWUD1UUlVFO0NOPUph
+dmllciA6bWFpbHRvOnNkYXNAZ21haWwuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtS
+T0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NFUFRFRDtSU1ZQDQogPUZBTFNFO0NOPUph
+bmUgRG9lOm1haWx0bzpqYW5lQGV4YW1wbGUub3JnDQpPUkdBTklaRVI7Q049SmFuZSBEb2U6bWFp
+bHRvOmphbmVAZXhhbXBsZS5vcmcNCkJFR0lOOlZBTEFSTQ0KVFJJR0dFUjtWQUxVRT1EQVRFLVRJ
+TUU6MjAyNDA3MTZUMTE0NTAwWg0KQUNUSU9OOkVNQUlMDQpTVU1NQVJZOkFsYXJtIG5vdGlmaWNh
+dGlvbg0KREVTQ1JJUFRJT046VGhpcyBpcyBhbiBldmVudCByZW1pbmRlcg0KQVRURU5ERUU7Q1VU
+WVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9O
+Ow0KIFJTVlA9VFJVRTtDTj1KYXZpZXIgOm1haWx0bzpzZGFzQGdtYWlsLmNvbQ0KRU5EOlZBTEFS
+TQ0KQkVHSU46VkFMQVJNDQpUUklHR0VSO1ZBTFVFPURBVEUtVElNRToyMDI0MDcxNlQxMTAwMDBa
+DQpBQ1RJT046RU1BSUwNClNVTU1BUlk6QWxhcm0gbm90aWZpY2F0aW9uDQpERVNDUklQVElPTjpU
+aGlzIGlzIGFuIGV2ZW50IHJlbWluZGVyDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xF
+PVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047DQogUlNWUD1UUlVFO0NOPUph
+dmllciA6bWFpbHRvOnNkYXNAZ21haWwuY29tDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpFTkQ6
+VkNBTEVOREFSDQo=
+
+--B_ATC_669589f8360f1--</pre>
+ERROR - 2024-07-15 22:43:38 --> #0 C:\xampp\htdocs\easyappointments\application\libraries\Notifications.php(83): Email_messages->send_appointment_saved(Array, Array, Array, Array, Array, 'Su cita ha sido...', 'Gracias por uti...', 'http://localhos...', 'sdas@gmail.com', 'BEGIN:VCALENDAR...', 'America/Santiag...')
+#1 C:\xampp\htdocs\easyappointments\application\controllers\Booking.php(460): Notifications->notify_appointment_saved(Array, Array, Array, Array, Array, false)
+#2 C:\xampp\htdocs\easyappointments\system\core\CodeIgniter.php(481): Booking->register()
+#3 C:\xampp\htdocs\easyappointments\index.php(331): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2024-07-15 22:43:38 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:49:12 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:50:09 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:50:11 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:50:46 --> Severity: Warning --> Undefined variable $add_to_google_url C:\xampp\htdocs\easyappointments\application\views\pages\booking_confirmation.php 62
+ERROR - 2024-07-15 22:52:55 --> Could not find the language line "trigger_sync_hint"
+ERROR - 2024-07-15 22:53:22 --> Could not find the language line "trigger_sync_hint"

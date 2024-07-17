@@ -79,7 +79,7 @@
             <?= lang('back') ?>
         </button>
         <form id="book-appointment-form" style="display:inline-block" method="post">
-            <button id="book-appointment-submit" type="button" class="btn btn-primary">
+            <button id="book-appointment-submit" type="button" class="btn btn-success-2">
                 <i class="fas fa-check-square me-2"></i>
                 <?= $manage_mode ? lang('update') : lang('confirm') ?>
             </button>

@@ -29,7 +29,6 @@ body {
   margin: auto;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 25%) 1px 1px 30px 20px;
-  margin-top: 20px;
 }
 
 #book-appointment-wizard #header {
@@ -172,7 +171,7 @@ body {
 #book-appointment-wizard #frame-footer {
   padding: 15px;
   text-align: center;
-  border-top: 1px solid #e8b13e;
+  background-color: #f1f1f1;
 }
 
 #book-appointment-wizard #available-hours {
@@ -272,7 +271,7 @@ body {
   max-width: 630px;
 }
 .wrapper{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 @media (min-width: 768px) {
@@ -359,7 +358,7 @@ body {
   padding: 35px;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 25%) 1px 1px 30px 20px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -389,6 +388,7 @@ body {
 @media (min-width: 768px) {
   #message-frame,
   #success-frame {
+    width: 90%;
     height: 100%;
   }
 }
@@ -411,11 +411,24 @@ body {
     padding: 15px 0;
     margin: 0;
     background: #f3f2e7;
-    border-bottom: 1px solid #e4e1c9;
+    border-bottom: 1px solid hsl(53, 33%, 84%);
     text-align: left;
+  }
+  #book-appointment-wizard{
+      margin: 20px auto auto;
+  }
+  .styled-table{
+    display: table !important;
+  }
+  .styled-table-2{
+    display: none;
+  }
+  .wrapper{
+    margin-top: 20px;
   }
 }
 .styled-table{
+  display: none;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 50px !important;
@@ -428,7 +441,11 @@ body {
   padding: 12px 15px;
   font-weight: 700;
 }
-.styled-table thead tr {
+.styled-table td{
+  background-color: #f1f1f1;
+  color: black;
+}
+.styled-table, thead tr {
   background-color: #e8b13e;
   color: #fff;
   text-align: middle;
@@ -439,6 +456,35 @@ body {
 }
 .styled-table .th1 {
   border-top-left-radius: 20px;
+}
+
+.styled-table-2 .th1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+}
+.styled-table-2{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px !important;
+  font-size: 1em;
+  min-width: 230px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+  border-radius: 20px;
+}
+.styled-table-2 td, .styled-table th {
+  padding: 12px 15px;
+  font-weight: 700;
+}
+.styled-table-2 td{
+  background-color: #f1f1f1;
+  color: black;
+}
+.styled-table-2, thead tr {
+  background-color: #e8b13e;
+  color: #fff;
+  text-align: middle;
+  border-radius: 20px;
 }
 
 .h3-comprobante{
@@ -453,4 +499,76 @@ body {
   text-align: justify;
   min-height: 230px;
   background-color: #f6f6ff;
+}
+
+
+.btn-primary-2{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #495057;
+  --bs-btn-border-color: #e8b13e;
+  --bs-btn-hover-color: #495057;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #e8b13e;
+  --bs-btn-focus-shadow-rgb: 95, 168, 149;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #495057;
+  --bs-btn-active-border-color: #e8b13e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #495057;
+  --bs-btn-disabled-border-color: #e8b13e;
+}
+.btn-success-2{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #e8b13e;
+  --bs-btn-border-color: #495057;
+  --bs-btn-hover-color: #e8b13e;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #495057;
+  --bs-btn-focus-shadow-rgb: 102, 201, 136;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e8b13e;
+  --bs-btn-active-border-color: #495057;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #e8b13e;
+  --bs-btn-disabled-border-color: #e8b13e;
+}
+
+.a-color{
+  color: #e8b13e;
+}
+.redes {
+  font-size: 35px; 
+  margin: 20px 10px 25px 
+}
+.fa-brands {
+  color:#646668; 
+  padding: 10px 
+}
+.redes :hover {
+  background-color:#e8b13e; 
+  color:#fff; 
+  transition:.3s; 
+  border-radius: 10px 
+}
+.listars {
+  display: inline-block
+}
+
+.redes {
+  font-size: 35px;
+  margin: 20px 10px 25px
+}
+
+.fa-brands {
+  color: #646668;
+  padding: 10px
+}
+
+.redes :hover {
+  background-color: #e8b13e;
+  color: #fff;
+  transition: .3s;
+  border-radius: 10px
 }

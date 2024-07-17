@@ -7,6 +7,38 @@
 ?>
 
 <div id="frame-footer">
+<small>
+                    <span class="footer-powered-by">
+                        !Visita nuestas redes!
+                    </span>
+                    <span class="footer-options">
+                        <ul>
+                            <li class="listars">
+                                <a class="redes" href="https://www.instagram.com/glam.imperio/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+
+
+                            </li>
+                            <li class="listars">
+                                <a class="redes" href="https://www.tiktok.com/@glamimperio" target="_blank">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                            <li class="listars">
+                                <a class="redes" href="https://www.facebook.com/profile.php?id=100088414493685" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="redesociales">
+                            <a class="backend-link badge badge-primary" href="<?= site_url('backend'); ?>">
+                                <i class="fas fa-sign-in-alt mr-2"></i>
+                                <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
+                            </a>
+                        </ul>
+                    </span>
+                </small>
     <small>
 
         <span class="footer-options">
