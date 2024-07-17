@@ -9,7 +9,7 @@
 
     <?php slot('meta'); ?>
 
-    <title><?= vars('page_title') ?? lang('backend_section') ?> | Easy!Appointments</title>
+    <title><?= vars('page_title') ?? lang('backend_section') ?> | GlamImperio</title>
 
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/faviconGlam.png') ?>">
     <link rel="icon" sizes="192x192" href="<?= asset_url('assets/img/logo.png') ?>">

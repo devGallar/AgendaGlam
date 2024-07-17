@@ -7,7 +7,8 @@
 </div>
 
 <div class="mb-5">
-    <h3><?= lang('appointment_registered') ?></h3>
+    <h3>SU CITA HA SIDO REGISTRADA EXITOSAMENTE</h3>
+    <h3>PARA CONFIRMARLA DEBE ABONAR $5000</h3>
         <table class="styled-table">
             <thead>
                 <tr>

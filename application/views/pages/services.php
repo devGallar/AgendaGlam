@@ -30,7 +30,7 @@
         <div class="record-details column col-12 col-md-5">
             <div class="btn-toolbar mb-4">
                 <div class="add-edit-delete-group btn-group">
-                    <button id="add-service" class="btn btn-primary">
+                    <button id="add-service" class="btn btn-success-2">
                         <i class="fas fa-plus-square me-2"></i>
                         <?= lang('add') ?>
                     </button>
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="save-cancel-group" style="display:none;">
-                    <button id="save-service" class="btn btn-primary">
+                    <button id="save-service" class="btn btn-success-2">
                         <i class="fas fa-check-square me-2"></i>
                         <?= lang('save') ?>
                     </button>

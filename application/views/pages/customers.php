@@ -34,7 +34,7 @@
                         can('add', PRIV_CUSTOMERS) &&
                         (!setting('limit_customer_access') || vars('role_slug') === DB_SLUG_ADMIN)
                     ): ?>
-                        <button id="add-customer" class="btn btn-primary">
+                        <button id="add-customer" class="btn btn-success-2">
                             <i class="fas fa-plus-square me-2"></i>
                             <?= lang('add') ?>
                         </button>
@@ -56,7 +56,7 @@
                 </div>
 
                 <div id="save-cancel-group" style="display:none;">
-                    <button id="save-customer" class="btn btn-primary">
+                    <button id="save-customer" class="btn btn-success-2">
                         <i class="fas fa-check-square me-2"></i>
                         <?= lang('save') ?>
                     </button>
